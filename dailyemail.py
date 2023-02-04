@@ -76,7 +76,7 @@ if weekday in [0, 1, 2, 3, 4]:
                     <p>From Sara 2.0 (SIIF Automated Reporting Assistant 2.0)<p>
                     <img src='cid:image2' style='max-width:100%' width="300">
                     <small><p>-------------------------------------------------------<p>
-                    <p>Code not available to the public just yet<p>
+                    <p>Code available at https://github.com/hazdogg/SARA-2.0<p>
                     <p>Disclaimer: This email is automated and the data/visualisations/calculations are subject to errors!<p>
                     <p>This has not been checked by a human, please do not solely use it to inform your financial decisions.<p>
                     </small>
