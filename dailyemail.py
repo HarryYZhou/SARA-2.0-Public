@@ -60,12 +60,12 @@ if weekday in [0, 1, 2, 3, 4]:
                 for share, value in share_return_to_send.items():
                 # Add these shares to the email
                     if value <= -2:
-                        value *= -1
+                        value *= -1 * student_sensitivity
                         html_email += f'''
                     <p>Today {share} dropped {value:.1f}%<p>'''
-                    elif value >= -2:
+                    elif value >= -1 * student_sensitivity:
                         html_email += f'''
-                    <p>Today {share} dropped {value:.1f}%<p>'''
+                    <p>Today {share} rose {value:.1f}%<p>'''
                 first_share_to_research = shares_to_research[0]
                 html_email += f"""
                     <p>You may like to investigate why, click <a href="https://www.google.com.au/search?q={first_share_to_research}+asx">here</a> to begin your research!<p>"""
